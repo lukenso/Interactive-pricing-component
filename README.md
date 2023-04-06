@@ -19,7 +19,7 @@ In this project, you'll build out an interactive pricing component complete with
 ## Resources
 
 - Challange URL: [Click here](#)
-- Live Site URL: [Click here](#)
+- Live Site URL: [Click here](https://lukenso.github.io/Interactive-pricing-component/)
 ## Author
 
 - LinkedIn - [Luka Koridze](https://www.linkedin.com/in/luka-koridze-4397571a4/)
