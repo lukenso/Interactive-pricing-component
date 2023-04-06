@@ -12,7 +12,7 @@ In this project, you'll build out an interactive pricing component complete with
 - Responsive Design
 - JavaScript
 
-## Designed for ony two devices 
+## Designed for only two devices 
 - Mobile (375px)
 - Desktop(1440px)
 
