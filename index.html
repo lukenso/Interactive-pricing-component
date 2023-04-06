@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive pricing component</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="circle">
+    <img src="./images/pattern-circles.svg" class="pattern" alt="">
+    <h1 class="simple">
+      Simple, traffic-based pricing
+    </h1>
+    <p class="sign-up">
+      Sign-up for our 30-day trial.
+      
+      No credit card required. 
+    </p>
+  </div>
+  <div class="container">
+    <h2 class="views">100K PAGEVIEWS</h2>
+    <div class="slidecontainer">
+      <input type="range" id="swap" class="slider" min="0" value="" max="32" name="value">
+    </div>
+    <div class="price-div">
+    <h3 class="price" id="price" placeholder="$00.00">
+      $16,00 </h3>
+      <p class="month" id="month">/ month</p>
+    </div>
+    <div class="change">
+      <p>Monthly Billing</p>
+      <input type="checkbox" id="button" class="checkbox" />
+        <label for="button" class="switch"> </label>
+      <p>Yearly Billing</p>
+      <div class="percent">-25%</div>
+      <div class="percent-desktop">25% discount</div>
+  </div>
+    <hr class="line">
+    <div class="list">
+      <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+        Unlimited websites
+      </div>
+      <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+        100% data ownership 
+      </div>
+      <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+        Email reports
+      </div>
+    </div>
+    <button type="submit" class="start">Start my trial</button>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
