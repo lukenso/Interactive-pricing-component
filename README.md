@@ -18,7 +18,7 @@ In this project, you'll build out an interactive pricing component complete with
 
 ## Resources
 
-- Challange URL: [Click here](#)
+- Challange URL: [Click here](https://www.frontendmentor.io/solutions/interactive-pricing-component-66c1nCs-NR)
 - Live Site URL: [Click here](https://lukenso.github.io/Interactive-pricing-component/)
 ## Author
 
